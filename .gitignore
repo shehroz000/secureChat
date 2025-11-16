@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# Certificates and Keys (NEVER COMMIT)
+certs/*.crt
+certs/*.key
+certs/*.pem
+*.crt
+*.key
+*.pem
+
+# Environment variables (may contain secrets)
+.env
+.env.local
+
+# Transcripts (session logs)
+transcripts/*.txt
+transcripts/*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Wireshark captures (may contain sensitive data)
+*.pcap
+*.pcapng
+
+# Temporary files
+*.tmp
+*.temp
+
